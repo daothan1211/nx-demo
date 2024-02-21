@@ -2,4 +2,4 @@
 
 cd /app/current
 
-yarn pm2
+yarn && yarn pm2
