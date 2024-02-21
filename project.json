@@ -1,0 +1,10 @@
+{
+  "root": "apps/nx-express",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+      }
+    }
+  }
+}
