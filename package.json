@@ -2,6 +2,9 @@
   "name": "@nx-express/source",
   "version": "0.0.0",
   "license": "MIT",
+  "engines" : { 
+    "node" : ">=18.0.0"
+  },
   "scripts": {
     "build": "nx run nx-express:build:production",
     "rm-cache": "rm -rf node_modules",
