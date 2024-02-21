@@ -2,7 +2,7 @@
   "root": "apps",
   "targets": {
     "build": {
-      "executor": "@nx/js:tsc",
+      "executor": "@nx/js:ts",
       "options": {
       }
     }
