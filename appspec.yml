@@ -3,12 +3,25 @@ os: linux
 files:
   - source: /
     destination: /app/current
+    overwrite: true
+permissions:
+  - object: /app/current
+    pattern: "*.sh"
+    owner: root
+    group: root
+    mode: 755
+    type:
+      - file
 hooks:
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
   AfterInstall:
-    - location: scripts/install_dependencies.sh
+    - location: scripts/after_install.sh
       timeout: 6000
-      runas: root
   ApplicationStart:
     - location: scripts/application_start.sh
       timeout: 300
-      runas: root
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      timeout: 300

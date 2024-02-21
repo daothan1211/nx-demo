@@ -1,6 +1,6 @@
 #!/bin/bash
 
 npm install -g pm2
-npm install -g npx
+pm2 update
 
-npm install
+npm install -g npx

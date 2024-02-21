@@ -2,4 +2,4 @@
 
 cd /app/current
 
-npm run pm2-start
+npm install
