@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /app/current
+cd /var/app/current
 
 pm2 kill

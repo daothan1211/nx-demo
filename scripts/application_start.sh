@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /app/current
+cd /var/app/current
 
-yarn && yarn pm2
+npm run pm2
