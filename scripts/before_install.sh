@@ -1,3 +1,4 @@
 #!/bin/bash
 
-npm install forever -g
+npm install -g npx
+npm install -g npx
