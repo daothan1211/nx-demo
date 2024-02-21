@@ -3,5 +3,5 @@
 npm install -g pm2
 npm install -g npx
 
-cd /app/current
+cd /var/app/current
 npm install
