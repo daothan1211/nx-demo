@@ -1,5 +1,5 @@
 {
-  "root": "apps/nx-express",
+  "root": "apps",
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
