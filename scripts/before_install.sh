@@ -4,3 +4,4 @@ npm install -g pm2
 pm2 update
 
 npm install -g npx
+npm install -g yarn

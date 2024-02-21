@@ -2,5 +2,4 @@
 
 cd /app/current
 
-npm i
-npm run pm2
+yarn pm2

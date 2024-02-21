@@ -2,4 +2,4 @@
 
 cd /app/current
 
-npm install
+yarn
